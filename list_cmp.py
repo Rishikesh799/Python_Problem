@@ -1,5 +1,5 @@
 """------------------LIST COMP---------------------------------------
-#1.Q==wap find all the no div by 7 in 1to 100
+#1.wap find all the no div by 7 in 1to 100
 
 print([i for i in range(1,100) if i % 7==0])
 out put==[7, 14, 21, 28, 35, 42, 49, 56, 63, 70, 77, 84, 91, 98]
