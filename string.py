@@ -34,4 +34,31 @@ print(list(t))
 print("".join((list(t))))
 print(len((list(t))))
 ---------------------------------------------------------------------------------------------
-"""
+#check whether string pallidrome or symmetric
+def pallidrome(x):
+    if x==x[::-1]:
+        print("pallidrome")
+    else:
+        print("not pallidrome")
+def symmetrical(x):
+    y=int(len(x)/2)
+    print(y)
+    if x[:y]==x[y:]:
+        print("symmetrical")
+    else:
+        print("not symmetrical")
+n="amaama"
+pallidrome(n)
+symmetrical(n)
+
+pallidrome
+3
+ symmetrical
+---------------------------------------------------------------------
+#Reverse the words in string
+x="my name is rishikesh"
+y=x.split()
+print(" ".join(y[::-1]))
+
+rishikesh is name my
+-------------------------------------------------------------------------
