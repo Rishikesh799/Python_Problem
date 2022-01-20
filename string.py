@@ -62,3 +62,31 @@ print(" ".join(y[::-1]))
 
 rishikesh is name my
 -------------------------------------------------------------------------
+#Avoid spaces in string:
+x="my name is rishikesh"
+d=[]
+for i in x:
+    if i.isalpha():
+        d.append(i)
+print(len(d))
+print("".join(d))
+17
+mynameisrishikesh
+------------------------------------------------------------------------------------------------------
+#python programe to even length words.
+
+x="my name is rishikesh"
+y=x.split()
+
+for i in y:
+    if len(i)%2==0:
+        print(i,end=" ")
+
+my name is
+------------------------------------
+
+##Half of sring create upper case.
+x="geek"
+y=int(len(x)/2)
+print(x[:y].upper()+x[y:])
+GEek
