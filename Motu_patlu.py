@@ -1,5 +1,5 @@
 Bricks game
-
+Problem :-
 Patlu and Motu works in a building construction, they have to put some number of bricks N from one
 place to another, and started doing their work. They decided , they end up with a fun challenge who will
 put the last brick.
@@ -20,3 +20,4 @@ Patlu Motu
 3 1 ( Only 1 remains)
 Hence, Motu puts the last one
 ----------------------------------------------
+
