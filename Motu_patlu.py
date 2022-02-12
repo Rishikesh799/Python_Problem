@@ -20,4 +20,25 @@ Patlu Motu
 3 1 ( Only 1 remains)
 Hence, Motu puts the last one
 ----------------------------------------------
+i=1
+n=int(input("Enter the no of bricks:"))
+while True:
+    if i<=n:
+        pass
+    else:
+        print("patlu wins")
+        break+
+    j=i*2
+    l=n-i
 
+    if j<=l:
+        pass
+    elif l==0:
+        print("patlu wins")
+        break
+    else:
+        print("motu wins")
+        break
+    k=i+j
+    n=n-k
+    i=i+1
